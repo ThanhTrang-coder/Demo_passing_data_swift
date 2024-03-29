@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A643359D2B2DAB55009689DC /* ClosureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643359C2B2DAB55009689DC /* ClosureDetailViewController.swift */; };
+		A643359F2B2DAB5A009689DC /* ClosureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A643359E2B2DAB5A009689DC /* ClosureViewController.swift */; };
+		A64335A12B2DAB5F009689DC /* VariableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64335A02B2DAB5E009689DC /* VariableViewController.swift */; };
+		A64335A32B2DAB64009689DC /* VariableDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64335A22B2DAB64009689DC /* VariableDetailViewController.swift */; };
+		A64335A52B2DAB68009689DC /* SegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64335A42B2DAB68009689DC /* SegueViewController.swift */; };
+		A64335A72B2DAB6D009689DC /* SegueDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64335A62B2DAB6D009689DC /* SegueDetailViewController.swift */; };
+		A64335A92B2DAB71009689DC /* NotificationCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64335A82B2DAB71009689DC /* NotificationCenterViewController.swift */; };
+		A64335AB2B2DACFE009689DC /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = A64335AA2B2DACFE009689DC /* Notifications.swift */; };
 		A6D900CF2B1D744E00AE8EDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D900CE2B1D744E00AE8EDE /* AppDelegate.swift */; };
 		A6D900D12B1D744E00AE8EDE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D900D02B1D744E00AE8EDE /* SceneDelegate.swift */; };
 		A6D900D32B1D744E00AE8EDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D900D22B1D744E00AE8EDE /* ViewController.swift */; };
 		A6D900D62B1D744E00AE8EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D900D42B1D744E00AE8EDE /* Main.storyboard */; };
 		A6D900D82B1D744F00AE8EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6D900D72B1D744F00AE8EDE /* Assets.xcassets */; };
 		A6D900DB2B1D744F00AE8EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6D900D92B1D744F00AE8EDE /* LaunchScreen.storyboard */; };
+		A6D900E32B1D76FE00AE8EDE /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6D900E22B1D76FE00AE8EDE /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A643359C2B2DAB55009689DC /* ClosureDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClosureDetailViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/ClosureDetailViewController.swift; sourceTree = "<group>"; };
+		A643359E2B2DAB5A009689DC /* ClosureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ClosureViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/ClosureViewController.swift; sourceTree = "<group>"; };
+		A64335A02B2DAB5E009689DC /* VariableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VariableViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/VariableViewController.swift; sourceTree = "<group>"; };
+		A64335A22B2DAB64009689DC /* VariableDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VariableDetailViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/VariableDetailViewController.swift; sourceTree = "<group>"; };
+		A64335A42B2DAB68009689DC /* SegueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegueViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/SegueViewController.swift; sourceTree = "<group>"; };
+		A64335A62B2DAB6D009689DC /* SegueDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SegueDetailViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/SegueDetailViewController.swift; sourceTree = "<group>"; };
+		A64335A82B2DAB71009689DC /* NotificationCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NotificationCenterViewController.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/NotificationCenterViewController.swift; sourceTree = "<group>"; };
+		A64335AA2B2DACFE009689DC /* Notifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = ../../PassingDataByNotificationCenter/PassingDataByNotificationCenter/Notifications.swift; sourceTree = "<group>"; };
 		A6D900CB2B1D744E00AE8EDE /* PassingData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PassingData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6D900CE2B1D744E00AE8EDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6D900D02B1D744E00AE8EDE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +41,7 @@
 		A6D900D72B1D744F00AE8EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A6D900DA2B1D744F00AE8EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6D900DC2B1D744F00AE8EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6D900E22B1D76FE00AE8EDE /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				A6D900D72B1D744F00AE8EDE /* Assets.xcassets */,
 				A6D900D92B1D744F00AE8EDE /* LaunchScreen.storyboard */,
 				A6D900DC2B1D744F00AE8EDE /* Info.plist */,
+				A6D900E22B1D76FE00AE8EDE /* SecondViewController.swift */,
+				A643359C2B2DAB55009689DC /* ClosureDetailViewController.swift */,
+				A643359E2B2DAB5A009689DC /* ClosureViewController.swift */,
+				A64335A02B2DAB5E009689DC /* VariableViewController.swift */,
+				A64335A22B2DAB64009689DC /* VariableDetailViewController.swift */,
+				A64335A42B2DAB68009689DC /* SegueViewController.swift */,
+				A64335A62B2DAB6D009689DC /* SegueDetailViewController.swift */,
+				A64335A82B2DAB71009689DC /* NotificationCenterViewController.swift */,
+				A64335AA2B2DACFE009689DC /* Notifications.swift */,
 			);
 			path = PassingData;
 			sourceTree = "<group>";
@@ -138,7 +165,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A64335AB2B2DACFE009689DC /* Notifications.swift in Sources */,
+				A64335A92B2DAB71009689DC /* NotificationCenterViewController.swift in Sources */,
+				A64335A52B2DAB68009689DC /* SegueViewController.swift in Sources */,
+				A643359F2B2DAB5A009689DC /* ClosureViewController.swift in Sources */,
+				A64335A32B2DAB64009689DC /* VariableDetailViewController.swift in Sources */,
+				A643359D2B2DAB55009689DC /* ClosureDetailViewController.swift in Sources */,
+				A6D900E32B1D76FE00AE8EDE /* SecondViewController.swift in Sources */,
 				A6D900D32B1D744E00AE8EDE /* ViewController.swift in Sources */,
+				A64335A12B2DAB5F009689DC /* VariableViewController.swift in Sources */,
+				A64335A72B2DAB6D009689DC /* SegueDetailViewController.swift in Sources */,
 				A6D900CF2B1D744E00AE8EDE /* AppDelegate.swift in Sources */,
 				A6D900D12B1D744E00AE8EDE /* SceneDelegate.swift in Sources */,
 			);
